@@ -22,7 +22,7 @@ if (module.hot) {
     setTimeout(() => {
       let listTile = document.querySelectorAll('.tile-container');
       listTile[listTile.length-1].classList.add('active');
-    }, 1);
+    }, 100);
   }
 
 

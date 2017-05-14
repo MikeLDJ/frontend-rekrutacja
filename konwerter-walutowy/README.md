@@ -17,6 +17,10 @@ npm run build
 * czas webpack ~5h, poświęcone na doczytywanie dokumentacji i grzebanie w innych repo;
 * czas na zadanie ~6h, miałem problem z dołączeniem klasy .active dla animacji, poradziłem sobie za pomocą setTimeout.
 
+## live:
+
+http://lysikowski.net/portfolio/demo-konwerter/
+
 ***
 
 # frontend-rekrutacja

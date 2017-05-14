@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Konwerter walutowy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Konwerter walutowy</title>
 </head>
 <body>
-    <h1>hello</h1>
-    <script src="dist/app.bundle.js"></script>
+  <div class="wrapper">
+    <div class="dialog">
+      <h1>Convert <strong>EUR</strong> to <strong>PLN</strong></h1>
+      <form class="form-container">
+        <label for="amount">Enter <strong>EUR</strong> amount</label>
+        <div class="form-input">
+          <input id="amount" type="number" min="0">
+          <button class="convert-button">Convert to PLN</button>
+        </div>
+      </form>
+    </div>
+    <div class="tile-cards"></div>
+    <div class="time"></div>
+  </div>
+  <script src="dist/app.bundle.js"></script>
 </body>
 </html>

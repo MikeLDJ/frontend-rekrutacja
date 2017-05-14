@@ -10,9 +10,10 @@ const config = {
     filename: 'app.bundle.js'
   },
   module: {
-    rules: [{
+    rules: [
+      {
         test: /\.scss$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname),
         use: [
           'style-loader',
           'css-loader',

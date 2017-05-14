@@ -12,6 +12,10 @@ npm start
 ```
 npm run build
 ```
+# INFO
+
+* czas webpack ~5h, poświęcone na doczytywanie dokumentacji i grzebanie w innych repo;
+* czas na zadanie ~6h, miałem problem z dołączeniem klasy .active dla animacji, poradziłem sobie za pomocą setTimeout.
 
 ***
 

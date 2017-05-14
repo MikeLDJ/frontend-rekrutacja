@@ -4,6 +4,10 @@
 * ~4h
 * grafiki brandowe zajęły czas -> pociąć, minifikacja i base64, tak wg mnie najrozsądniej, najmniej requestów i wielkość przyzwoita, opocjonalnie brałem pod uwagę css-sprites
 
+## live:
+
+http://lysikowski.net/portfolio/demo-formularz-rejestracji/
+
 ***
 
 ## Zadanie 2 - HTML/CSS

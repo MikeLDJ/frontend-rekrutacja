@@ -3,3 +3,56 @@
 * _form
 *
 **************************************************/
+
+.form-register {
+  background-color: $sand;
+  display: flex;
+  flex-direction: column;
+  min-height: 15rem;
+  justify-content: space-around;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+
+  &__item {
+    position: relative;
+
+    @include mq(47rem) {
+      margin: .8rem 0;
+    }
+  }
+
+  &__item-input {
+    min-width: 15.857rem;
+    position: relative;
+  }
+
+  &__login-link,
+  &__login-link:visited {
+    color: $navyblue;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  input {
+    background-color: $white;
+    border: 1px solid $lightgrey;
+    border-bottom-color: $navyblue;
+    height: 2.2rem;
+    min-width: 15.857rem;
+    line-height: 2.2rem;
+    padding: .6rem;
+  }
+
+  label {
+    font-size: 1.143em;
+    line-height: 2.2rem;
+    position: absolute;
+    transform: translateX(-180%);
+
+    @include mq(47rem) {
+      display: block;
+      position: relative;
+      transform: translateX(0);
+    }
+  }
+}

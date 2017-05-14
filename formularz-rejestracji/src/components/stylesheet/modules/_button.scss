@@ -3,3 +3,13 @@
 * _button
 *
 **************************************************/
+
+.submit-btn {
+  color: $white;
+  background-color: $navyblue;
+  font-size: .857em;
+  font-weight: bold;
+  line-height: 2.2rem;
+  padding: 0 2rem;
+  text-transform: uppercase;
+}

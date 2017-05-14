@@ -1,0 +1,68 @@
+/*************************************************
+*
+* _modal
+*
+**************************************************/
+
+.modal {
+  border: 1px solid $sand;
+  box-shadow: 0 0 1.429em rgba($black, .35);
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  width: 53.142rem;
+
+  @include mq(47rem) {
+    width: 100%;
+  }
+
+  &::before {
+    background-color: rgba($black, .5);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.header {
+  &__icon {
+    height: 1.625rem;
+    max-width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.571rem;
+
+    @include mq(47rem) {
+      margin: 1rem auto;
+    }
+  }
+
+  &__promo {
+    align-items: center;
+    display: flex;
+    height: 5rem;
+    justify-content: space-around;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+
+    @include mq(47rem) {
+      height: auto;
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    color: $navyblue;
+    font-size: 1.143em;
+    padding-bottom: 1.429rem;
+    padding-top: 1.429rem;
+    text-transform: uppercase;
+  }
+}

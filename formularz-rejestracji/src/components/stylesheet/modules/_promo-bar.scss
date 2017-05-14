@@ -1,0 +1,61 @@
+/*************************************************
+*
+* _promo-bar
+*
+**************************************************/
+
+.promo-bar {
+  display: flex;
+  height: 3.857rem;
+  padding-left: 1.429rem;
+  padding-right: 1.429rem;
+
+  @include mq(47rem) {
+    height: auto;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  &--lg {
+    height: 6.214rem;
+
+    @include mq(47rem) {
+      height: auto;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @include mq(47rem) {
+      flex-wrap: wrap;
+    }
+
+    img {
+      height: 3.857rem;
+
+      @include mq(47rem) {
+        margin: .2rem .8rem;
+      }
+    }
+
+    &--lg {
+      img {
+        align-self: center;
+        height: 4.756rem;
+      }
+    }
+  }
+
+  &__header {
+    align-self: center;
+    padding-right: 1.8rem;
+    width: 9rem;
+
+    @include mq(47rem) {
+      margin-bottom: 1rem;
+    }
+  }
+}

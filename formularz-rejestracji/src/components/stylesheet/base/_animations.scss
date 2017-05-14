@@ -1,0 +1,23 @@
+/*************************************************
+*
+* _animations
+*
+**************************************************/
+
+img {
+  transition: transform .27s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(.95);
+    transition: transform .27s;
+  }
+}
+
+.submit-btn {
+  transition: transform .1s;
+  &:hover {
+    transform: scale(1.05);
+    transition: transform .1s;
+  }
+}

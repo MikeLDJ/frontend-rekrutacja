@@ -236,6 +236,24 @@ video {
 
 /*************************************************
 *
+* _animations
+*
+**************************************************/
+img {
+  transition: transform .27s; }
+  img:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+    transition: transform .27s; }
+
+.submit-btn {
+  transition: transform .1s; }
+  .submit-btn:hover {
+    transform: scale(1.05);
+    transition: transform .1s; }
+
+/*************************************************
+*
 * _base
 *
 **************************************************/
